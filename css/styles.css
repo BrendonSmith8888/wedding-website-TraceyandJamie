@@ -1,3 +1,19 @@
+a {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px rgb(255, 255, 255) inset;
+    cursor: pointer;
+    color: rgb(21, 83, 15);
+    font-family: cursive;
+    font-size: 2vw;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
 
 body {
     align-items: center;
@@ -10,10 +26,18 @@ body {
     padding: 0;
 }
 
+footer{
+    color: rgb(21, 83, 15);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1vw;
+    margin-bottom: 20%;
+}
+
 h1{
     color: rgb(21, 83, 15);
     font-family: cursive;
     font-size: 4vw;
+    margin-left: 1%;
     margin-top: 50%;
 }
 
@@ -21,11 +45,20 @@ h2{
     color: rgb(21, 83, 15);
     font-family: cursive;
     font-size: 3vw;
+    margin-left: 1%;
 }
 
-#navlinks{
-    width: 80%;
-    margin-bottom: 50%;
+h3{
+    color: rgb(21, 83, 15);
+    font-family: cursive;
+    font-size: 2vw;
+    margin-left: 1%;
+}
+
+img {
+    height: 100%;
+    margin-bottom: 10%;
+    width: 50%;
 }
 
 nav{
@@ -36,45 +69,32 @@ nav{
     margin-bottom: 5%;
 }
 
-a {
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 50%;
-    box-shadow: 0px 0px 15px 15px rgb(255, 255, 255) inset;
-    cursor: pointer;
-    color: rgb(21, 83, 15);
-    font-family: cursive;
-    font-size: 2vw;
-    font-weight: bold;
-    text-decoration: none;
-}
-a:hover{
-    transform: scale(1.5);
-    transition: 1s;
-}
-
-#homePagePhoto{
-    height: 100%;
-    width: 50%; 
-}
-
-img {
-    height: 100%;
-    margin-bottom: 10%;
-    width: 50%;
-}
-
-
-
-#osParagraphs{
-    font-family: cursive;
-    margin-bottom: 5%;
-    margin-top: 5%;
-}
-
 p{
     color: rgb(21, 83, 15);
     font-size: 2vw;
     font-weight: bold;
+    margin: 1%;
+}
+
+ul{
+    color: rgb(21, 83, 15);
+    font-family: cursive;
+    font-size: 1.5vw;
+}
+
+#bestMenAndGroomsmen{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fromDurban{
+    width: 80%;
+}
+
+#fromGauteng{
+    width: 80%;
 }
 
 #homePageLink{
@@ -88,6 +108,52 @@ p{
     text-decoration: none;
 }
 
+#homePagePhoto{
+    height: 100%;
+    width: 50%; 
+}
+
+#howToGetAround{
+    width: 80%;
+}
+
+#MOHandBridesmaids{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#navlinks{
+    width: 80%;
+    margin-bottom: 50%;
+}
+
+#osParagraphs{
+    font-family: cursive;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#tiWeblink{
+    color: rgb(21, 83, 15);
+    font-size: 1.5vw;
+    font-weight: normal;
+}
+
+#travelInfoHeading{
+    color: rgb(21, 83, 15);
+    flex-direction: column;
+    font-family: cursive;
+    font-size: 4vw;
+    margin-top: 300%;
+    width: 100%;
+}
+
+#travelInfoMessage{
+    width: 80%;
+}
+
 #weddingParty{
     color: rgb(21, 83, 15);
     display: flex;
@@ -99,44 +165,8 @@ p{
     width: 50%;
 }
 
-#bestMenAndGroomsmen{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#MOHandBridesmaids{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-h3{
-    color: rgb(21, 83, 15);
-    font-family: cursive;
-    font-size: 2vw;
-}
-
-ul{
-    color: rgb(21, 83, 15);
-    font-family: cursive;
-    font-size: 1.5vw;
-}
-
-#fromGauteng{
-    width: 100%;
-}
-
-#fromDurban{
-    width: 100%;
-}
-
 #whereToStay{
-    width: 100%;
+    width: 80%;
 }
 
-#howToGetAround{
-    width: 100%;
-}
+
