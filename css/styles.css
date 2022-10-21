@@ -37,8 +37,7 @@ h1{
     color: rgb(21, 83, 15);
     font-family: cursive;
     font-size: 4vw;
-    margin-left: 1%;
-    margin-top: 50%;
+    margin-top: 35%;
 }
 
 h2{
@@ -59,6 +58,10 @@ img {
     height: 100%;
     margin-bottom: 10%;
     width: 50%;
+}
+
+li{
+    margin-top: 2%;
 }
 
 nav{
@@ -82,6 +85,15 @@ ul{
     font-size: 1.5vw;
 }
 
+#accomHeading{
+    color: rgb(21, 83, 15);
+    flex-direction: column;
+    font-family: cursive;
+    font-size: 4vw;
+    margin-top: 250%;
+    width: 100%;
+}
+
 #bestMenAndGroomsmen{
     align-items: center;
     display: flex;
@@ -90,11 +102,11 @@ ul{
 }
 
 #fromDurban{
-    width: 80%;
+    width: 70%;
 }
 
 #fromGauteng{
-    width: 80%;
+    width: 70%;
 }
 
 #homePageLink{
@@ -103,9 +115,14 @@ ul{
     font-family: cursive;
     font-size: 2vw;
     font-weight: bold;
-    margin-bottom: 50%;
+    margin-bottom: 20%;
     margin-top: 5%;
     text-decoration: none;
+}
+
+#homePageLink:hover{
+    transform: scale(1.5);
+    transition: 1s;
 }
 
 #homePagePhoto{
@@ -114,7 +131,7 @@ ul{
 }
 
 #howToGetAround{
-    width: 80%;
+    width: 70%;
 }
 
 #MOHandBridesmaids{
@@ -126,13 +143,22 @@ ul{
 
 #navlinks{
     width: 80%;
-    margin-bottom: 50%;
+    margin-bottom: 10%;
 }
 
 #osParagraphs{
     font-family: cursive;
     margin-bottom: 5%;
     margin-top: 5%;
+}
+
+#rsvpHeading{
+    color: rgb(21, 83, 15);
+    flex-direction: column;
+    font-family: cursive;
+    font-size: 4vw;
+    margin-top: 170%;
+    width: 100%;
 }
 
 #tiWeblink{
@@ -146,12 +172,12 @@ ul{
     flex-direction: column;
     font-family: cursive;
     font-size: 4vw;
-    margin-top: 300%;
+    margin-top: 170%;
     width: 100%;
 }
 
 #travelInfoMessage{
-    width: 80%;
+    width: 70%;
 }
 
 #weddingParty{
@@ -166,7 +192,7 @@ ul{
 }
 
 #whereToStay{
-    width: 80%;
+    width: 70%;
 }
 
 
