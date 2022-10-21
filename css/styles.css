@@ -101,6 +101,19 @@ ul{
     justify-content: center;
 }
 
+#faqsHeading{
+    color: rgb(21, 83, 15);
+    flex-direction: column;
+    font-family: cursive;
+    font-size: 4vw;
+    margin-top: 400%;
+    width: 100%;
+}
+
+#faqsList{
+    margin-top: 1%;
+}
+
 #fromDurban{
     width: 70%;
 }
