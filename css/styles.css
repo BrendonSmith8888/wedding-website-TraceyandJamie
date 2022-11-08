@@ -50,7 +50,7 @@ h2{
 h3{
     color: rgb(21, 83, 15);
     font-family: cursive;
-    font-size: 2vw;
+    font-size: 2.15vw;
     margin-left: 1%;
 }
 
@@ -74,7 +74,8 @@ nav{
 
 p{
     color: rgb(21, 83, 15);
-    font-size: 2vw;
+    font-family: cursive;
+    font-size: 2.15vw;
     font-weight: bold;
     margin: 1%;
 }
@@ -85,20 +86,25 @@ ul{
     font-size: 1.5vw;
 }
 
-#accomHeading{
+#directionsFromDurban{
+    width: 70%;
+}
+
+#directionsFromGauteng{
+    width: 70%;
+}
+
+#directionsHeading{
     color: rgb(21, 83, 15);
     flex-direction: column;
     font-family: cursive;
     font-size: 4vw;
-    margin-top: 250%;
+    margin-top: 170%;
     width: 100%;
 }
 
-#bestMenAndGroomsmen{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#directionsMessage{
+    width: 70%;
 }
 
 #faqsHeading{
@@ -110,16 +116,14 @@ ul{
     width: 100%;
 }
 
+#faqsImage{
+    margin-bottom: 10%;
+    width: 30%; 
+}
+
 #faqsList{
-    margin-top: 1%;
-}
-
-#fromDurban{
-    width: 70%;
-}
-
-#fromGauteng{
-    width: 70%;
+    font-size: 2.5vw;
+    margin-top: 5%;
 }
 
 #homePageLink{
@@ -128,7 +132,7 @@ ul{
     font-family: cursive;
     font-size: 2vw;
     font-weight: bold;
-    margin-bottom: 20%;
+    margin-bottom: 30%;
     margin-top: 5%;
     text-decoration: none;
 }
@@ -147,13 +151,6 @@ ul{
     width: 70%;
 }
 
-#MOHandBridesmaids{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 #navlinks{
     width: 80%;
     margin-bottom: 10%;
@@ -170,42 +167,76 @@ ul{
     flex-direction: column;
     font-family: cursive;
     font-size: 4vw;
-    margin-top: 170%;
+    margin-top: 300%;
+    width: 100%;
+}
+
+#rsvpHomePageLink{
+    cursor: pointer;
+    color: rgb(21, 83, 15);
+    font-family: cursive;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 20%;
+    margin-top: 5%;
+    text-decoration: none;
+}
+
+#rsvpHomePageLink:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+#rsvpImage{
+    margin-bottom: 5%;
+    margin-top: 10%;
+    width: 30%;
+}
+
+#tiColumns{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+#ti1stColumn{
+    display: block;
+    flex: 1;
+    flex-direction: column;
+    width: 50%;
+}
+
+#ti2ndColumn{
+    display: block;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 15%;
+    width: 50%;
+}
+
+#tiHeading{
+    color: rgb(21, 83, 15);
+    flex-direction: column;
+    font-family: cursive;
+    font-size: 4vw;
+    margin-top: 180%;
     width: 100%;
 }
 
 #tiWeblink{
     color: rgb(21, 83, 15);
-    font-size: 1.5vw;
+    font-size: 2.15vw;
     font-weight: normal;
 }
 
-#travelInfoHeading{
-    color: rgb(21, 83, 15);
-    flex-direction: column;
-    font-family: cursive;
-    font-size: 4vw;
-    margin-top: 170%;
-    width: 100%;
+#tiWhereToStay{
+    font-size: 2.15vw;
+    width: 90%;
 }
 
-#travelInfoMessage{
-    width: 70%;
+#ulFontSize{
+    font-size: 2.14vw;
 }
 
-#weddingParty{
-    color: rgb(21, 83, 15);
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    font-family: cursive;
-    font-size: 1.5vw;
-    justify-content: space-evenly;
-    width: 50%;
-}
-
-#whereToStay{
-    width: 70%;
-}
 
 
