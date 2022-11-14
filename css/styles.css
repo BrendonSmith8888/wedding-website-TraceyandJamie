@@ -181,7 +181,7 @@ ul{
 #rsvpHeading{
     color: rgb(21, 83, 15);
     flex-direction: column;
-    font-family: cursive;
+    font-family: 'Script MT', cursive;
     font-size: 4vw;
     margin-top: 300%;
     width: 100%;
