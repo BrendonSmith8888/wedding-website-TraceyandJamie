@@ -86,6 +86,10 @@ ul{
     font-size: 1.5vw;
 }
 
+#bankDetails{
+    list-style: none;
+}
+
 #directionsFromDurban{
     width: 70%;
 }
@@ -124,7 +128,7 @@ ul{
 
 #faqsList{
     font-size: 1.5vw;
-    margin-top: 1.5%;
+    margin-top: 5%;
 }
 
 #homePageLink{
