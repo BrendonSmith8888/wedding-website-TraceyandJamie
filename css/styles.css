@@ -126,8 +126,19 @@ ul{
     width: 100%;
 }
 
+#faqshomePageLink{
+    cursor: pointer;
+    color: rgb(21, 83, 15);
+    font-family: 'Script MT', cursive;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 2.5%;
+    margin-top: 5%;
+    text-decoration: none;
+}
+
 #faqsImage{
-    margin-bottom: 5%;
+    margin-bottom: 2.5%;
     margin-top: 5%;
     width: 30%; 
 }
@@ -137,16 +148,6 @@ ul{
     margin-top: 5%;
 }
 
-#faqshomePageLink{
-    cursor: pointer;
-    color: rgb(21, 83, 15);
-    font-family: 'Script MT', cursive;
-    font-size: 2vw;
-    font-weight: bold;
-    margin-bottom: 10%;
-    margin-top: 5%;
-    text-decoration: none;
-}
 
 #homePageLink{
     cursor: pointer;
@@ -154,7 +155,7 @@ ul{
     font-family: 'Script MT', cursive;
     font-size: 2vw;
     font-weight: bold;
-    margin-bottom: 50%;
+    margin-bottom: 60%;
     margin-top: 5%;
     text-decoration: none;
 }
@@ -223,7 +224,7 @@ ul{
     font-family: 'Script MT', cursive;
     font-size: 2vw;
     font-weight: bold;
-    margin-bottom: 70%;
+    margin-bottom: 75%;
     margin-top: 5%;
     text-decoration: none;
 }
