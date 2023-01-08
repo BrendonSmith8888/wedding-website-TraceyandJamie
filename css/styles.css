@@ -111,6 +111,12 @@ ul{
     width: 70%;
 }
 
+#faqsHastag{
+    color: rgb(26, 245, 6);
+    font-size: 1.5vw;
+    font-weight: normal;
+}
+
 #faqsHeading{
     color: rgb(21, 83, 15);
     flex-direction: column;
@@ -123,12 +129,23 @@ ul{
 #faqsImage{
     margin-bottom: 5%;
     margin-top: 5%;
-    width: 40%; 
+    width: 30%; 
 }
 
 #faqsList{
     font-size: 1.5vw;
     margin-top: 5%;
+}
+
+#faqshomePageLink{
+    cursor: pointer;
+    color: rgb(21, 83, 15);
+    font-family: 'Script MT', cursive;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    text-decoration: none;
 }
 
 #homePageLink{
@@ -137,7 +154,7 @@ ul{
     font-family: 'Script MT', cursive;
     font-size: 2vw;
     font-weight: bold;
-    margin-bottom: 30%;
+    margin-bottom: 50%;
     margin-top: 5%;
     text-decoration: none;
 }
@@ -164,6 +181,7 @@ ul{
 #osPhotos{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 #osPhoto1{
@@ -205,7 +223,7 @@ ul{
     font-family: 'Script MT', cursive;
     font-size: 2vw;
     font-weight: bold;
-    margin-bottom: 20%;
+    margin-bottom: 70%;
     margin-top: 5%;
     text-decoration: none;
 }
@@ -269,18 +287,20 @@ ul{
     flex-direction: column;
     font-family: 'Script MT', cursive;
     font-size: 4vw;
-    margin-top: 145%;
+    margin-top: 170%;
     width: 100%;
 }
 
 #tiWeblink{
-    color: rgb(21, 83, 15);
+    color: rgb(26, 245, 6);
     font-size: 1.5vw;
     font-weight: normal;
+    text-decoration: underline;
 }
 
 #tiWhereToStay{
     font-size: 1.5vw;
+    margin-top: 5%;
     width: 90%;
 }
 
