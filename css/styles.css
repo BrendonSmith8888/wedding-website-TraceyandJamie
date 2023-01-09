@@ -109,6 +109,22 @@ ul{
     width: 100%;
 }
 
+#directionshomePageLink{
+    cursor: pointer;
+    color: rgb(21, 83, 15);
+    font-family: 'Script MT', cursive;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 47%;
+    margin-top: 5%;
+    text-decoration: none;
+}
+
+#directionshomePageLink:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
 #directionsMessage{
     width: 70%;
 }
@@ -134,9 +150,14 @@ ul{
     font-family: 'Script MT', cursive;
     font-size: 2vw;
     font-weight: bold;
-    margin-bottom: 5%;
+    margin-bottom: 6%;
     margin-top: 5%;
     text-decoration: none;
+}
+
+#faqshomePageLink:hover{
+    transform: scale(1.5);
+    transition: 1s;
 }
 
 #faqsImage{
@@ -179,6 +200,22 @@ ul{
 #navlinks{
     width: 80%;
     margin-bottom: 10%;
+}
+
+#oshomePageLink{
+    cursor: pointer;
+    color: rgb(21, 83, 15);
+    font-family: 'Script MT', cursive;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 53%;
+    margin-top: 5%;
+    text-decoration: none;
+}
+
+#oshomePageLink:hover{
+    transform: scale(1.5);
+    transition: 1s;
 }
 
 #osPhotos{
@@ -226,7 +263,7 @@ ul{
     font-family: 'Script MT', cursive;
     font-size: 2vw;
     font-weight: bold;
-    margin-bottom: 60%;
+    margin-bottom: 65%;
     margin-top: 5%;
     text-decoration: none;
 }
@@ -292,6 +329,22 @@ ul{
     font-size: 4vw;
     margin-top: 190%;
     width: 100%;
+}
+
+#tihomePageLink{
+    cursor: pointer;
+    color: rgb(21, 83, 15);
+    font-family: 'Script MT', cursive;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 45%;
+    margin-top: 5%;
+    text-decoration: none;
+}
+
+#tihomePageLink:hover{
+    transform: scale(1.5);
+    transition: 1s;
 }
 
 #tiWeblink{
